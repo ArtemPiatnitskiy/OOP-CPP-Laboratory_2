@@ -17,8 +17,6 @@ public:
     Octal subtract(const Octal &other) const;
 
 
-    Octal add_assign(const Octal &other) const;
-
     int compare(const Octal &other) const;
     bool equals(const Octal &other) const;
     bool less_than(const Octal &other) const;
